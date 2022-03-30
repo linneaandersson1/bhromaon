@@ -42,7 +42,7 @@ header {
   letter-spacing: 4.8px;
 }
 
-.spain__paragraph, .spain__subheader, .spain__headline, .whyus__paragraph, .form__enter-info, .header__subheadline {
+.feedback__paragraph, .feedback__subheadline, .spain__paragraph, .spain__subheader, .spain__headline, .whyus__paragraph, .form__enter-info, .header__subheadline {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -74,7 +74,7 @@ header {
   display: flex;
 }
 
-.whyus__headline, .nav__menulink, .nav__menulinks, .btn, .form-btn {
+.feedback__headline, .whyus__headline, .nav__menulink, .nav__menulinks, .btn, .form-btn {
   font-family: "Aleo";
   font-style: normal;
   font-weight: 400;
@@ -315,4 +315,66 @@ header {
           justify-content: flex-end;
   max-width: 1113px;
   width: 100%;
+}
+
+.feedback__section {
+  background-image: url(../images/manbackpack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feedback__margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1113px;
+  width: 100%;
+}
+
+.feedback__headline {
+  font-size: 36px;
+  margin-bottom: 91px;
+}
+
+.feedback__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feedback__text {
+  background: #333333;
+}
+
+.feedback__subheadline {
+  font-size: 20px;
+  color: #FEFEFE;
+}
+
+.feedback__paragraph {
+  font-size: 16px;
+  color: #FEFEFE;
+  max-width: 581px;
+  width: 100%;
+  margin-right: 25px;
 }

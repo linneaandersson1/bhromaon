@@ -286,3 +286,55 @@ header {
     max-width: 1113px;
     width: 100%;
 }
+
+// FEEDBACK SECTION
+
+.feedback__section {
+    background-image: url(../images/manbackpack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback__margin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    // max-height: 404px;
+    // height: 100%;
+    max-width: 1113px;
+    width: 100%;
+}
+
+.feedback__headline {
+    @extend %aleo;
+    font-size: 36px;
+    margin-bottom: 91px;
+}
+
+.feedback__card {
+    display: flex;
+}
+
+.feedback__text {
+    background: #333333;
+}
+
+.feedback__subheadline {
+    @extend %josefin-regular;
+    font-size: 20px;
+    color: #FEFEFE;
+}
+
+.feedback__paragraph {
+    @extend %josefin-regular;
+    font-size: 16px;
+    color: #FEFEFE;
+    max-width: 581px;
+    width: 100%;
+    margin-right: 25px;
+}
