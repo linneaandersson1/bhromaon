@@ -1,5 +1,7 @@
 header {
   background-image: url(../images/headerimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,7 +33,6 @@ header {
   font-weight: 700;
   line-height: 26px;
   /* identical to box height, or 54% */
-  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -41,19 +42,12 @@ header {
   letter-spacing: 4.8px;
 }
 
-.placeholder, .header__subheadline {
+.whyus__paragraph, .form__enter-info, .header__subheadline {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
   /* identical to box height, or 118% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   color: #FFFFFF;
 }
 
@@ -62,13 +56,25 @@ header {
   letter-spacing: 6.82px;
 }
 
-.placeholder {
+.form__enter-info {
+  width: 503px;
+  height: 63px;
+  border: none;
+  padding: 0px;
+  margin-right: -4px;
+  text-align: center;
   font-size: 14px;
   letter-spacing: 2.8px;
   color: #999999;
 }
 
-.nav__menulink, .btn {
+.header__formcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.whyus__headline, .nav__menulink, .btn, .form-btn {
   font-family: "Aleo";
   font-style: normal;
   font-weight: 400;
@@ -78,11 +84,19 @@ header {
   color: #FFFFFF;
 }
 
-.btn {
+.btn, .form-btn {
   background: #5474FD;
+  border: none;
+  width: 228px;
+  height: 63px;
+}
+
+.form-btn {
   border: 2px solid #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 153px;
+  height: 63px;
 }
 
 .header___scrldwn {
@@ -92,12 +106,6 @@ header {
   font-size: 14px;
   line-height: 26px;
   /* identical to box height, or 186% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
   letter-spacing: 2.8px;
   color: #FFFFFF;
@@ -114,8 +122,9 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   min-height: 83px;
 }
 
@@ -138,4 +147,55 @@ header {
   font-size: 14px;
   text-decoration: none;
   margin-right: 35px;
+}
+
+.whyus__section {
+  background-image: url(../images/citynight.png);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whyus__text {
+  max-width: 560px;
+  width: 100%;
+}
+
+.whyus__headline {
+  font-size: 36px;
+}
+
+.whyus__paragraph {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
+
+.whyus__images {
+  max-width: 400px;
+  width: 100%;
+}
+
+.whyus__topimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.whyus__bottomimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
