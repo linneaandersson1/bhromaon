@@ -541,6 +541,10 @@ header {
         width: 100%;
         height: 63px;
     }
+
+    .form__enter-info {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -550,12 +554,6 @@ header {
         font-size: 24px;
         margin-bottom: 60px;
     }
-
-    // .feedback__card .feedback__box  {
-    //     max-width: 350px;
-    //     width: 100%;
-    //     overflow-x: hidden;
-    // }
 
     .header__headline {
         font-size: 38px;
@@ -571,12 +569,6 @@ header {
 }
 
 @media screen and (max-width: 445px) {
-
-    // .feedback__headline {
-    //     margin-top: 20px;
-    //     font-size: 24px;
-    //     margin-bottom: 60px;
-    // }
 
     .whyus__topimg {
         max-width: 320px;
@@ -598,19 +590,28 @@ header {
 
 }
 
-    // .feedback__card {
-    //     max-width: 320px;
-    //     width: 100%;
-    //     min-height: 400px;
-    //     overflow-x: hidden;
-    // }
+@media screen and (max-width: 376px) {
+    .form__enter-info {
+        font-size: 8px;
+    }
 
-    // .feedback__text {
-    //     max-width: 300px;
-    //     width: 100%;
-    // }
+    .header__form {
+        width: 250px;
+    }
+}
 
-    // .feedback__paragraph {
-    //     max-width: 300px;
-    //     width: 100%;
-    // }
+// @media screen and (max-width: 445px) {
+//     .header__form {
+//         width: 300px;
+//     }
+    
+//     .btn-txt {
+//         display: none;
+//     }
+
+//     .form-btn {
+//         max-width: 60px;
+//         width: 100%;
+//         height: 63px;
+//     }
+// }
