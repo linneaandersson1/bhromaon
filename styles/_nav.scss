@@ -35,9 +35,17 @@
     margin-right: 35px;
 }
 
+.nav__menulinks:hover {
+    opacity: 0.5;
+}
+
 .nav__menulink {
     @extend %aleo;
     font-size: 14px;
     text-decoration: none;
     // margin-right: 35px;
+}
+
+.nav__menulink:hover {
+    opacity: 0.5;
 }
