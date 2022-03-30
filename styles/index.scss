@@ -4,7 +4,7 @@ header {
     background-image: url(../images/headerimg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 92vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,8 +112,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
+    // justify-content: space-between;
     min-height: 83px;
+}
+
+.margin {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 1113px;
+    width: 100%;
 }
 
 // .nav__logocard {
@@ -146,9 +154,11 @@ header {
 
 .whyus__section {
     background-image: url(../images/citynight.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -166,6 +176,7 @@ header {
     @extend %josefin-regular;
     font-size: 16px;
     letter-spacing: 1.6px;
+    color: #E8E8E8;
 }
 
 .btn {
@@ -185,4 +196,70 @@ header {
 .whyus__bottomimg {
     display: flex;
     justify-content: flex-end;
+}
+
+// INFO SECTION
+
+.infoillu__section {
+    background: #333333;
+    min-height: 30vh;
+}
+
+// SPAIN FIRST SECTION
+
+.spain__frst-section {
+    background-image: url(../images/bungalow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.spain__textdiv {
+    width: 543px;
+    height: 374px;
+    background: #232323;
+    // mix-blend-mode: normal;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32px;
+    // align-items: center;
+}
+
+.spain__headline {
+    @extend %josefin-regular;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+    margin-bottom: 23px;
+}
+
+.spain__subheader {
+    @extend %josefin-regular;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.spain__paragraph {
+    @extend %josefin-regular;
+    font-size: 16px;
+    color: #E8E8E8;
+    max-width: 508px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.spain__scnd-section {
+    background-image: url(../images/rockycliffs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
