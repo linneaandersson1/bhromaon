@@ -1,0 +1,16 @@
+header {
+  background-image: url(../images/headerimg.png);
+}
+
+.header__headline {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  /* identical to box height, or 54% */
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
