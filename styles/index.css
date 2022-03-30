@@ -103,6 +103,10 @@ header {
   display: flex;
 }
 
+.header__form {
+  width: 503px;
+}
+
 .feedback__headline, .infoillu__headline, .whyus__headline, .nav__menulink, .nav__menulinks, .btn, .form-btn {
   font-family: "Aleo";
   font-style: normal;
@@ -537,6 +541,7 @@ header {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  padding-top: 30px;
 }
 
 .footer__card {
@@ -672,6 +677,9 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 40px;
     margin-top: 40px;
   }
@@ -724,7 +732,22 @@ header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .header__form {
+    width: 300px;
+  }
+
+  .btn-txt {
+    display: none;
+  }
+
+  .form-btn {
+    max-width: 60px;
+    width: 100%;
+    height: 63px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -746,7 +769,7 @@ header {
     font-size: 26px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 445px) {
   .whyus__topimg {
     max-width: 320px;
     width: 100%;

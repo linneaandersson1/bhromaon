@@ -23,6 +23,8 @@ header {
     align-items: center;
     justify-content: space-between;
     min-height: 350px;
+    // max-width: 656px;
+    // width: 100%;
 }
 
 .header__text {
@@ -83,6 +85,10 @@ header {
 
 .header__formcard {
     display: flex;
+}
+
+.header__form {
+    width: 503px;
 }
 
 %aleo {
@@ -469,6 +475,7 @@ header {
     .whyus__images {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin-bottom: 40px;
         margin-top: 40px;
     }
@@ -517,7 +524,22 @@ header {
     .spain__textdiv {
         text-align: center;
         align-items: center;
-        padding-left: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header__form {
+        width: 300px;
+    }
+    
+    .btn-txt {
+        display: none;
+    }
+
+    .form-btn {
+        max-width: 60px;
+        width: 100%;
+        height: 63px;
     }
 }
 
@@ -548,7 +570,7 @@ header {
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 445px) {
 
     // .feedback__headline {
     //     margin-top: 20px;
