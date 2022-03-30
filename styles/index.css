@@ -332,21 +332,34 @@ header {
 .infoillu__section {
   background: #333333;
   min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: none;
 }
 
 .infoillu__card {
-  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.infoillu__search {
+.works__img {
+  height: auto;
+}
+
+.infoillu__works {
   background-color: green;
   min-height: 30px;
-}
-
-.infoillu__bow {
-  position: relative;
-  z-index: 1;
 }
 
 .infoillu__text {

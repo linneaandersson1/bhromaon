@@ -237,22 +237,31 @@ header {
 .infoillu__section {
     background: #333333;
     min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     display: none;
 }
 
 .infoillu__card {
-    max-width: 300px;
+   display: flex;
+   justify-content: space-between;
 }
 
-.infoillu__search {
+.works__img {
+    height: auto;
+}
+
+.infoillu__works {
     background-color: green;
     min-height: 30px;
 }
 
-.infoillu__bow {
-    position: relative;
-    z-index: 1;
-}
+// .infoillu__bow {
+//     position: relative;
+//     z-index: 1;
+//     max-width: 40vw;
+// }
 
 .infoillu__text {
     display: flex;
