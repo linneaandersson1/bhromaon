@@ -444,16 +444,20 @@ header {
 
 .footer {
   background: #232323;
-  min-height: 60vh;
+  min-height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.footer__card {
+  margin-bottom: 47px;
 }
 
 .footer__logo {

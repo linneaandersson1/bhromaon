@@ -1,0 +1,41 @@
+.footer {
+    background: #232323;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer__card {
+  margin-bottom: 47px;
+}
+
+.footer__logo {
+    @extend %josefin-bold;
+    font-size: 24px;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer__subheadline {
+    @extend %josefin-regular;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    margin-bottom: 18px;
+}
+
+.footer__socials {
+    color: #FEFEFE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    color: #FEFEFE;
+}
+
+.fa-linkedin {
+    color: #5474FD;
+}

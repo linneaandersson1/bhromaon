@@ -1,3 +1,6 @@
+// section {
+//     padding-bottom: 30px;
+// }
 // HEADER
 
 header {
@@ -331,46 +334,4 @@ header {
 
 // FOOTER
 
-.footer {
-    background: #232323;
-    min-height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-// .footer__card {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-// }
-
-.footer__logo {
-    @extend %josefin-bold;
-    font-size: 24px;
-    letter-spacing: 3.36px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 8px;
-}
-
-.footer__subheadline {
-    @extend %josefin-regular;
-    font-size: 16px;
-    letter-spacing: 1.6px;
-    margin-bottom: 18px;
-}
-
-.footer__socials {
-    color: #FEFEFE;
-    display: flex;
-    justify-content: space-between;
-}
-
-.fa-brands {
-    color: #FEFEFE;
-}
-
-.fa-linkedin {
-    color: #5474FD;
-}
+@import 'footer';
