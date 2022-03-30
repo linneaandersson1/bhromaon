@@ -356,9 +356,33 @@ header {
   height: auto;
 }
 
+.worksicons {
+  margin-bottom: 40px;
+  color: #5474FD;
+}
+
+.worksiconc {
+  margin-bottom: 40px;
+  color: #FF6363;
+}
+
+.worksicon {
+  margin-bottom: 40px;
+  color: #00A2FF;
+}
+
 .infoillu__works {
-  background-color: green;
   min-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .infoillu__text {
@@ -620,6 +644,10 @@ header {
     margin-right: 3vw;
   }
 
+  .infoillu__headline {
+    font-size: 26px;
+  }
+
   .spain__frst-margin {
     margin-left: 3vw;
     margin-right: 3vw;
@@ -741,6 +769,10 @@ header {
     display: none;
   }
 
+  .infoillu__headline {
+    font-size: 16px;
+  }
+
   .dropdown {
     position: relative;
     display: inline-block;
@@ -816,6 +848,10 @@ header {
     max-width: 320px;
     width: 100%;
     overflow: hidden;
+  }
+
+  .infoillu__headline {
+    font-size: 12px;
   }
 
   .whyus__bottomimg {
