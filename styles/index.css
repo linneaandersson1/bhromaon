@@ -27,7 +27,7 @@ header {
           align-items: center;
 }
 
-.nav__logo, .header__headline {
+.footer__logo, .nav__logo, .header__headline {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
@@ -42,7 +42,7 @@ header {
   letter-spacing: 4.8px;
 }
 
-.feedback__paragraph, .feedback__subheadline, .spain__paragraph, .spain__subheader, .spain__headline, .whyus__paragraph, .form__enter-info, .header__subheadline {
+.footer__subheadline, .feedback__paragraph, .feedback__subheadline, .spain__paragraph, .spain__subheader, .spain__headline, .whyus__paragraph, .form__enter-info, .header__subheadline {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -364,11 +364,25 @@ header {
 
 .feedback__text {
   background: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 34px;
 }
 
 .feedback__subheadline {
+  text-transform: uppercase;
   font-size: 20px;
+  margin-bottom: 8px;
   color: #FEFEFE;
+  margin-left: 25px;
 }
 
 .feedback__paragraph {
@@ -377,4 +391,30 @@ header {
   max-width: 581px;
   width: 100%;
   margin-right: 25px;
+  margin-left: 25px;
+}
+
+.footer {
+  background: #232323;
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__logo {
+  font-size: 24px;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+
+.footer__subheadline {
+  font-size: 16px;
+  letter-spacing: 1.6px;
 }
