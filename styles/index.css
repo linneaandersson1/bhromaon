@@ -74,7 +74,7 @@ header {
   display: flex;
 }
 
-.whyus__headline, .nav__menulink, .btn, .form-btn {
+.whyus__headline, .nav__menulink, .nav__menulinks, .btn, .form-btn {
   font-family: "Aleo";
   font-style: normal;
   font-weight: 400;
@@ -153,10 +153,15 @@ header {
           flex-direction: row;
 }
 
-.nav__menulink {
+.nav__menulinks {
   font-size: 14px;
   text-decoration: none;
   margin-right: 35px;
+}
+
+.nav__menulink {
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .whyus__section {
@@ -226,12 +231,22 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.spain__frst-margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 1113px;
+  width: 100%;
 }
 
 .spain__textdiv {
@@ -281,10 +296,23 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.spain__scnd-margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 1113px;
+  width: 100%;
 }

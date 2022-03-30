@@ -143,11 +143,18 @@ header {
     // max-width: 1001px;
 }
 
-.nav__menulink {
+.nav__menulinks {
     @extend %aleo;
     font-size: 14px;
     text-decoration: none;
     margin-right: 35px;
+}
+
+.nav__menulink {
+    @extend %aleo;
+    font-size: 14px;
+    text-decoration: none;
+    // margin-right: 35px;
 }
 
 // WHY CHOOSE US SECTION
@@ -213,8 +220,16 @@ header {
     background-size: cover;
     min-height: 100vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+}
+
+.spain__frst-margin {
+    display: flex;
+    align-content: center;
+    // justify-content: space-between;
+    max-width: 1113px;
+    width: 100%;
 }
 
 .spain__textdiv {
@@ -260,6 +275,14 @@ header {
     background-size: cover;
     min-height: 100vh;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+}
+
+.spain__scnd-margin {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    max-width: 1113px;
+    width: 100%;
 }
