@@ -240,6 +240,20 @@ header {
     display: none;
 }
 
+.infoillu__card {
+    max-width: 300px;
+}
+
+.infoillu__search {
+    background-color: green;
+    min-height: 30px;
+}
+
+.infoillu__bow {
+    position: relative;
+    z-index: 1;
+}
+
 .infoillu__text {
     display: flex;
     // flex-direction: ;
@@ -396,6 +410,10 @@ header {
     width: 100%;
     margin-right: 25px;
     margin-left: 25px;
+}
+
+.fa-quote-left {
+    color: #5474FD;
 }
 
 // FOOTER
