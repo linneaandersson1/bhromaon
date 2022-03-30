@@ -32,6 +32,7 @@ header {
     @extend %josefin-bold;
     font-size: 48px;
     letter-spacing: 4.8px;
+    margin-bottom: 11px;
 }
 
 %josefin-regular {
@@ -47,6 +48,7 @@ header {
     @extend %josefin-regular;
     font-size: 22px;
     letter-spacing: 6.82px;
+    margin-bottom: 48px;
 }
 
 .form__enter-info {
@@ -105,17 +107,6 @@ header {
     color: #FFFFFF;
 }
 
-// NAVBAR
-
-.nav {
-    background-color: #5474FD;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // justify-content: space-between;
-    min-height: 83px;
-}
-
 .margin {
     display: flex;
     align-content: center;
@@ -123,39 +114,9 @@ header {
     max-width: 1113px;
     width: 100%;
 }
+// NAVBAR
 
-// .nav__logocard {
-//     display: flex;
-//     justify-content: space-between;
-//     min-width: 600px;
-// }
-
-.nav__logo {
-    @extend %josefin-bold;
-    font-size: 24px;
-    letter-spacing: 2.4px;
-}
-
-.nav__menu {
-    display: flex;
-    flex-direction: row;
-    // justify-content: space-between;
-    // max-width: 1001px;
-}
-
-.nav__menulinks {
-    @extend %aleo;
-    font-size: 14px;
-    text-decoration: none;
-    margin-right: 35px;
-}
-
-.nav__menulink {
-    @extend %aleo;
-    font-size: 14px;
-    text-decoration: none;
-    // margin-right: 35px;
-}
+@import 'nav';
 
 // WHY CHOOSE US SECTION
 

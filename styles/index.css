@@ -27,7 +27,7 @@ header {
           align-items: center;
 }
 
-.footer__logo, .nav__logo, .header__headline {
+.footer__logo, .header__headline {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
@@ -40,6 +40,7 @@ header {
 .header__headline {
   font-size: 48px;
   letter-spacing: 4.8px;
+  margin-bottom: 11px;
 }
 
 .footer__subheadline, .feedback__paragraph, .feedback__subheadline, .spain__paragraph, .spain__subheader, .spain__headline, .whyus__paragraph, .form__enter-info, .header__subheadline {
@@ -54,6 +55,7 @@ header {
 .header__subheadline {
   font-size: 22px;
   letter-spacing: 6.82px;
+  margin-bottom: 48px;
 }
 
 .form__enter-info {
@@ -74,7 +76,7 @@ header {
   display: flex;
 }
 
-.feedback__headline, .whyus__headline, .nav__menulink, .nav__menulinks, .btn, .form-btn {
+.feedback__headline, .whyus__headline, .btn, .form-btn {
   font-family: "Aleo";
   font-style: normal;
   font-weight: 400;
@@ -111,20 +113,6 @@ header {
   color: #FFFFFF;
 }
 
-.nav {
-  background-color: #5474FD;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 83px;
-}
-
 .margin {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,32 +124,6 @@ header {
           justify-content: space-between;
   max-width: 1113px;
   width: 100%;
-}
-
-.nav__logo {
-  font-size: 24px;
-  letter-spacing: 2.4px;
-}
-
-.nav__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.nav__menulinks {
-  font-size: 14px;
-  text-decoration: none;
-  margin-right: 35px;
-}
-
-.nav__menulink {
-  font-size: 14px;
-  text-decoration: none;
 }
 
 .whyus__section {
