@@ -510,6 +510,10 @@ header {
         max-width: 70vw;
     }
 
+    .feedback__paragraph{
+        max-width: 70vw;
+    }
+
     .spain__textdiv {
         text-align: center;
         align-items: center;
@@ -525,18 +529,11 @@ header {
         margin-bottom: 60px;
     }
 
-    .feedback__card .feedback__box  {
-        max-width: 350px;
-        width: 100%;
-        overflow-x: hidden;
-    }
-
-    .feedback__text {
-        max-width: 350px;
-        width: 100%;
-        display: flex;
-        min-height: 400px;
-    }
+    // .feedback__card .feedback__box  {
+    //     max-width: 350px;
+    //     width: 100%;
+    //     overflow-x: hidden;
+    // }
 
     .header__headline {
         font-size: 38px;
@@ -544,10 +541,6 @@ header {
 
     .header__subheadline {
         font-size: 16px;
-    }
-
-    .feedback__paragraph {
-        max-width: 320px;
     }
 
     .whyus__headline {
@@ -575,62 +568,27 @@ header {
         overflow: hidden;
     }
 
-    .feedback__card {
+    .feedback__box {
         max-width: 320px;
         width: 100%;
-        min-height: 400px;
         overflow-x: hidden;
     }
 
-    .feedback__text {
-        max-width: 300px;
-        width: 100%;
-    }
+}
 
-    // .header__headline {
-    //     font-size: 38px;
+    // .feedback__card {
+    //     max-width: 320px;
+    //     width: 100%;
+    //     min-height: 400px;
+    //     overflow-x: hidden;
     // }
 
-    // .header__subheadline {
-    //     font-size: 16px;
+    // .feedback__text {
+    //     max-width: 300px;
+    //     width: 100%;
     // }
 
     // .feedback__paragraph {
-    //     max-width: 320px;
+    //     max-width: 300px;
+    //     width: 100%;
     // }
-
-    // .whyus__headline {
-    //     font-size: 26px;
-    // }
-}
-
-// @media screen and (max-width: 500px) {
-//    .whyus__topimg .whyus__bottomimg {
-//        max-width: 320px;
-//        width: 100%;
-//        overflow-x: hidden;
-//        margin-right: 0px;
-//        margin-left: 0px;
-//    }
-
-//    .whyus__images {
-//        display: block;
-//    }
-// }
-
-// @media screen and (max-width: 400px) {
-//     .feedback__card .feedback__box  {
-//         max-width: 320px;
-//         width: 100%;
-//         overflow-x: hidden;
-//     }
-
-//     .feedback__text {
-//         max-width: 300px;
-//         width: 100%;
-//     }
-
-//     .feedback__paragraph {
-//         max-width: 300px;
-//     }
-// }
