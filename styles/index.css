@@ -25,7 +25,7 @@ header {
           align-items: center;
 }
 
-.header__headline {
+.nav__logo, .header__headline {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
@@ -68,27 +68,21 @@ header {
   color: #999999;
 }
 
+.nav__menulink, .btn {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 .btn {
   background: #5474FD;
   border: 2px solid #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Aleo";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
-  /* identical to box height, or 186% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  color: #FFFFFF;
 }
 
 .header___scrldwn {
@@ -107,4 +101,41 @@ header {
   text-align: center;
   letter-spacing: 2.8px;
   color: #FFFFFF;
+}
+
+.nav {
+  background-color: #5474FD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 83px;
+}
+
+.nav__logo {
+  font-size: 24px;
+  letter-spacing: 2.4px;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav__menulink {
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 35px;
 }
