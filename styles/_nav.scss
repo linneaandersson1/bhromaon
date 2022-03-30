@@ -1,0 +1,43 @@
+.nav {
+    background-color: #5474FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // justify-content: space-between;
+    min-height: 83px;
+}
+
+
+
+// .nav__logocard {
+//     display: flex;
+//     justify-content: space-between;
+//     min-width: 600px;
+// }
+
+.nav__logo {
+    @extend %josefin-bold;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+}
+
+.nav__menu {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    // max-width: 1001px;
+}
+
+.nav__menulinks {
+    @extend %aleo;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+.nav__menulink {
+    @extend %aleo;
+    font-size: 14px;
+    text-decoration: none;
+    // margin-right: 35px;
+}

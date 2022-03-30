@@ -25,9 +25,29 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 350px;
 }
 
-.footer__logo, .header__headline {
+.header__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo, .nav__logo, .header__headline {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
@@ -76,7 +96,7 @@ header {
   display: flex;
 }
 
-.feedback__headline, .whyus__headline, .btn, .form-btn {
+.feedback__headline, .whyus__headline, .nav__menulink, .nav__menulinks, .btn, .form-btn {
   font-family: "Aleo";
   font-style: normal;
   font-weight: 400;
@@ -126,6 +146,46 @@ header {
   width: 100%;
 }
 
+.nav {
+  background-color: #5474FD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 83px;
+}
+
+.nav__logo {
+  font-size: 24px;
+  letter-spacing: 2.4px;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav__menulinks {
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+.nav__menulink {
+  font-size: 14px;
+  text-decoration: none;
+}
+
 .whyus__section {
   background-image: url(../images/citynight.png);
   background-repeat: no-repeat;
@@ -145,10 +205,36 @@ header {
 .whyus__text {
   max-width: 560px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .whyus__headline {
   font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.whyus__paragraphs {
+  min-height: 158px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 45px;
 }
 
 .whyus__paragraph {
@@ -374,9 +460,30 @@ header {
   font-size: 24px;
   letter-spacing: 3.36px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .footer__subheadline {
   font-size: 16px;
   letter-spacing: 1.6px;
+  margin-bottom: 18px;
+}
+
+.footer__socials {
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fa-brands {
+  color: #FEFEFE;
+}
+
+.fa-linkedin {
+  color: #5474FD;
 }
