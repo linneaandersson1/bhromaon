@@ -576,6 +576,10 @@ header {
   color: #FEFEFE;
 }
 
+.fa-brands:hover {
+  color: #fefefe8e;
+}
+
 .fa-linkedin-in {
   color: #5474FD;
 }
@@ -742,6 +746,10 @@ header {
 
   .btn-txt {
     display: none;
+  }
+
+  .fa-magnifying-glass-plus {
+    margin-left: 0px;
   }
 
   .form-btn {
