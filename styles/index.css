@@ -96,7 +96,7 @@ header {
   display: flex;
 }
 
-.feedback__headline, .whyus__headline, .nav__menulink, .nav__menulinks, .btn, .form-btn {
+.feedback__headline, .infoillu__headline, .whyus__headline, .nav__menulink, .nav__menulinks, .btn, .form-btn {
   font-family: "Aleo";
   font-style: normal;
   font-weight: 400;
@@ -121,7 +121,16 @@ header {
   height: 63px;
 }
 
-.header___scrldwn {
+.header___scrl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header___scrldwn, a {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -131,6 +140,7 @@ header {
   text-align: center;
   letter-spacing: 2.8px;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .margin {
@@ -255,6 +265,7 @@ header {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  margin-bottom: 10px;
 }
 
 .whyus__bottomimg {
@@ -269,6 +280,29 @@ header {
 .infoillu__section {
   background: #333333;
   min-height: 30vh;
+}
+
+.infoillu__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fa-magnifying-glass {
+  color: #5474FD;
+}
+
+.fa-circle-check {
+  color: #FF6363;
+}
+
+.fa-thumbs-up {
+  color: #00A2FF;
+}
+
+.infoillu__headline {
+  font-size: 36px;
+  color: #E8E8E8;
 }
 
 .spain__frst-section {

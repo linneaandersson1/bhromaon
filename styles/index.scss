@@ -107,7 +107,12 @@ header {
     // margin-top:15px;
 }
 
-.header___scrldwn {
+.header___scrl {
+    display: flex;
+    justify-content: center;
+}
+
+.header___scrldwn, a {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -117,6 +122,7 @@ header {
     text-align: center;
     letter-spacing: 2.8px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .margin {
@@ -183,6 +189,7 @@ header {
 .whyus__topimg {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 10px;
 }
 
 .whyus__bottomimg {
@@ -195,6 +202,29 @@ header {
 .infoillu__section {
     background: #333333;
     min-height: 30vh;
+}
+
+.infoillu__text {
+    display: flex;
+    // flex-direction: ;
+}
+
+.fa-magnifying-glass {
+    color: #5474FD;
+}
+
+.fa-circle-check {
+    color: #FF6363;
+}
+
+.fa-thumbs-up {
+    color: #00A2FF;
+}
+
+.infoillu__headline {
+    @extend %aleo;
+    font-size: 36px;
+    color: #E8E8E8;
 }
 
 // SPAIN FIRST SECTION
